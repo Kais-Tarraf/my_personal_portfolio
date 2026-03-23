@@ -13,8 +13,8 @@ const App = () => {
 			<main>
 				<Hero />
 				<About />
-				{/*<Projects />
-				<Experience />
+				<Projects />
+				{/*<Experience />
 				<Testimonials />
 				<Contact /> */}
 			</main>

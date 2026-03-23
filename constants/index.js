@@ -67,3 +67,40 @@ export const highlights = [
 			"Staying ahead with the latest technologies and best practices.",
 	},
 ];
+
+export const projects = [
+	{
+		title: "Roomify",
+		description:
+			"AI-powered website that transforms boring 2D floor plans into realistic 3D designs.",
+		image: "/projects/project1.png",
+		tags: ["React", "Typescript", "Puter"],
+		link: "#",
+		github: "#",
+	},
+	{
+		title: "GTA-VI Landing page",
+		description: "A beautiful landing page full with animation",
+		image: "/projects/project2.png",
+		tags: ["React", "GSAP", "Tailwind"],
+		link: "#",
+		github: "#",
+	},
+	{
+		title: "Brain Wave",
+		description:
+			"Brainwave is just a landing page with modern layout and some cool animation",
+		image: "/projects/project3.png",
+		tags: ["React", "GSAP", "Tailwind"],
+		link: "#",
+		github: "#",
+	},
+	{
+		title: "Mojito Cocktails",
+		description: "Sip the spirit of summer",
+		image: "/projects/project4.png",
+		tags: ["React", "Tailwind", "GSAP"],
+		link: "#",
+		github: "#",
+	},
+];
