@@ -59,6 +59,7 @@ const Navbar = () => {
 					<div className="container mx-auto px-6 py-6 flex flex-col gap-4">
 						{NavLinks.map((link, i) => (
 							<a
+								onClick={() => setIsMobileMenuOpen(false)}
 								key={i}
 								href={link.href}
 								className="text-lg text-muted-foreground hover:text-foreground py-2"
@@ -66,7 +67,9 @@ const Navbar = () => {
 								{link.label}
 							</a>
 						))}
-						<Button>Contact Me</Button>
+						<Button onClick={() => setIsMobileMenuOpen(false)}>
+							Contact Me
+						</Button>
 					</div>
 				</div>
 			)}
