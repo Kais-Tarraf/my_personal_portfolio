@@ -7,6 +7,9 @@ import {
 	Lightbulb,
 	Rocket,
 	Users,
+	MapPin,
+	Phone,
+	Mail,
 } from "lucide-react";
 export const NavLinks = [
 	{ href: "#about", label: "About" },
@@ -177,5 +180,26 @@ export const testimonials = [
 		role: "CEO, Innovation Hub",
 		avatar:
 			"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+	},
+];
+
+export const contactInfo = [
+	{
+		icon: Mail,
+		label: "Email",
+		value: "kaistarraf0008@gmail.com",
+		href: "kaistarraf0008@gmail.com",
+	},
+	{
+		icon: Phone,
+		label: "Phone",
+		value: "+963 93331211222222",
+		href: "tel:+93331211222222",
+	},
+	{
+		icon: MapPin,
+		label: "Location",
+		value: "Homs, Syria",
+		href: "#",
 	},
 ];
