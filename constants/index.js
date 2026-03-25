@@ -10,6 +10,7 @@ import {
 	MapPin,
 	Phone,
 	Mail,
+	Heart,
 } from "lucide-react";
 export const NavLinks = [
 	{ href: "#about", label: "About" },
@@ -202,4 +203,10 @@ export const contactInfo = [
 		value: "Homs, Syria",
 		href: "#",
 	},
+];
+export const footerLinks = [
+	{ href: "#about", label: "About" },
+	{ href: "#projects", label: "Projects" },
+	{ href: "#experience", label: "Experience" },
+	{ href: "#contact", label: "Contact" },
 ];
